@@ -1,0 +1,11 @@
+1. Based on the table, we would expect:
+Backing up is O(n). 2000 hours for large company.
+Deleting is O(log N), and so is searching. 400 for both.
+Sorting is O(N^2), and will take 10000 hours.
+
+2. Let N be the number of coefficients 
+
+assign + N * assign + (N*(N+1))/2 * (arithmetic) + N*(arithmetic + comparsion) + return
+
+Looks to be O(N^2)?
+
